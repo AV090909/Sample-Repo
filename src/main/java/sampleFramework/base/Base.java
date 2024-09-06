@@ -17,7 +17,7 @@ public class Base {
         driver= new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
-        driver.get(prop.getProperty("browser"));
+
 
     }
     public void loadProperties() throws IOException {
