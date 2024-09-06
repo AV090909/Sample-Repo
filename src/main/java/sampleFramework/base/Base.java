@@ -19,6 +19,7 @@ public class Base {
         driver.get(prop.getProperty("url"));
 
 
+
     }
     public void loadProperties() throws IOException {
         FileInputStream file = new FileInputStream("C:/Hybrid/sample_project/src/main/java/sampleFramework/config/ConfigProperties.properties");
