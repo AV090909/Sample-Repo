@@ -1,4 +1,4 @@
-package sampleFramework.base;
+package anuSampleFramework.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +13,7 @@ public class Base {
     public static Properties prop;
     public void openBrowser(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--disable-search-engine-choice-screen");
+        options.addArguments("--disable-search-engine-choice-screen");//
         driver= new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.get(prop.getProperty("url"));
@@ -22,7 +22,7 @@ public class Base {
 
     }
     public void loadProperties() throws IOException {
-        FileInputStream file = new FileInputStream("C:/Hybrid/sample_project/src/main/java/sampleFramework/config/ConfigProperties.properties");
+        FileInputStream file = new FileInputStream("C:/Hybrid/sample_project/src/main/java/anuSampleFramework/config/ConfigProperties.properties");
         prop= new Properties();
         prop.load(file);
     }
