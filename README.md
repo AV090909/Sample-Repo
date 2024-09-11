@@ -21,11 +21,6 @@ This is a frontend testing framework which is used to automate the web applicati
 * Testng
 * Selenium
 
-#### Libraries : 
-         Java
-         Selenium
-         Maven
-         Testng
 ### Packages in Framework
 
 * Base package : In this package im launching the browser and loading the properties from the property file.
