@@ -21,6 +21,9 @@ This is a frontend testing framework which is used to automate the web applicati
 * Testng
 * Selenium
 
+### Clone repository link : 
+git clone https://github.com/AV090909/Sample-Repo.git
+
 ### Packages in Framework
 
 * Base package : In this package im launching the browser and loading the properties from the property file.
